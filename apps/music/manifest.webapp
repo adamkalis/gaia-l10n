@@ -1,0 +1,69 @@
+{
+  "name": "Music",
+  "description": "Gaia Music",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "The Gaia Team",
+    "url": "https://github.com/mozilla-b2g/gaia"
+  },
+  "permissions": [
+    "device-storage:music",
+    "settings"
+  ],
+  "locales": {
+    "ar": {
+      "name": "موسيقى",
+      "description": "Gaia موسيقى"
+    },
+    "ca": {
+      "name": "Música",
+      "description": "Música del Gaia"
+    },
+    "de": {
+      "name": "Musik",
+      "description": "Gaia Musik"
+    },
+    "el": {
+      "name": "Μουσική",
+      "description": "Μουσική Gaia"
+    },
+    "en-US": {
+      "name": "Music",
+      "description": "Gaia Music"
+    },
+    "es": {
+      "name": "Música",
+      "description": "Música de Gaia"
+    },
+    "fr": {
+      "name": "Musique",
+      "description": "Lecteur audio Gaia"
+    },
+    "it": {
+      "name": "Musica",
+      "description": "Musica di Gaia"
+    },
+    "pt-BR": {
+      "name": "Música",
+      "description": "Música Gaia"
+    },
+    "ru": {
+      "name": "Музыка",
+      "description": "Музыка Gaia"
+    },
+    "tr": {
+      "name": "Müzik",
+      "description": "Gaia Müzik"
+    },
+    "zh-TW": {
+      "name": "音樂",
+      "description": "Gaia 音樂"
+    }
+  },
+  "default_locale": "en-US",
+  "icons": {
+    "120": "/style/icons/Music.png",
+    "60": "/style/icons/60/Music.png"
+  },
+  "orientation": "portrait-primary"
+}

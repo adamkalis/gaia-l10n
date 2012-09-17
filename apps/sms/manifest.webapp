@@ -1,0 +1,82 @@
+{
+  "name": "Messages",
+  "description": "Gaia Messages",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "The Gaia Team",
+    "url": "https://github.com/mozilla-b2g/gaia"
+  },
+  "permissions": [
+    "sms",
+    "contacts",
+    "background",
+    "backgroundservice",
+    "mobileconnection",
+    "settings"
+  ],
+  "locales": {
+    "ar": {
+      "name": "رسائل",
+      "description": "Gaia رسائل"
+    },
+    "ca": {
+      "name": "Missatges",
+      "description": "Missatges del Gaia"
+    },
+    "de": {
+      "name": "Nachrichten",
+      "description": "Gaia Nachrichten"
+    },
+    "el": {
+      "name": "Μηνύματα",
+      "description": "Μηνύματα Gaia"
+    },
+    "en-US": {
+      "name": "Messages",
+      "description": "Gaia Messages"
+    },
+    "es": {
+      "name": "Mensajes",
+      "description": "Mensajes de Gaia"
+    },
+    "fr": {
+      "name": "Messages",
+      "description": "Messages Gaia"
+    },
+    "it": {
+      "name": "Messaggi",
+      "description": "Messaggi di Gaia"
+    },
+    "pt-BR": {
+      "name": "Mensagens",
+      "description": "Mensagens do Gaia"
+    },
+    "ru": {
+      "name": "Сообщения",
+      "description": "Сообщения Gaia"
+    },
+    "tr": {
+      "name": "Messages",
+      "description": "Gaia Messages"
+    },
+    "zh-TW": {
+      "name": "訊息",
+      "description": "Gaia 訊息"
+    }
+  },
+  "default_locale": "en-US",
+  "background_page": "/background.html#0",
+  "icons": {
+    "120": "/style/icons/Sms.png",
+    "60": "/style/icons/60/Sms.png"
+  },
+  "orientation": "portrait-primary",
+  "activities": {
+    "new": {
+      "filters": {
+        "type": "websms/sms"
+       },
+      "disposition": "window"
+    }
+  }
+}

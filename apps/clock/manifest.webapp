@@ -1,0 +1,72 @@
+{
+  "name": "Clock",
+  "description": "Gaia Clock",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "The Gaia Team",
+    "url": "https://github.com/mozilla-b2g/gaia"
+  },
+  "permissions": [
+    "alarm",
+    "alarms",
+    "settings",
+    "attention"
+  ],
+  "locales": {
+    "ar": {
+      "name": "الساعة",
+      "description": "Gaia الساعة"
+    },
+    "ca": {
+      "name": "Rellotge",
+      "description": "Rellotge del Gaia"
+    },
+    "de": {
+      "name": "Uhr",
+      "description": "Gaia Uhr"
+    },
+    "el": {
+      "name": "Ρολόι",
+      "description": "Ρολόι Gaia"
+    },
+    "en-US": {
+      "name": "Clock",
+      "description": "Gaia Clock"
+    },
+    "es": {
+      "name": "Reloj",
+      "description": "Reloj de Gaia"
+    },
+    "fr": {
+      "name": "Horloge",
+      "description": "Horloge Gaia"
+    },
+    "it": {
+      "name": "Orologio",
+      "description": "Orologio di Gaia"
+    },
+    "pt-BR": {
+      "name": "Relógio",
+      "description": "Relógio do Gaia"
+    },
+    "ru": {
+      "name": "Часы",
+      "description": "Часы Gaia"
+    },
+    "tr": {
+      "name": "Saat",
+      "description": "Gaia Saat"
+    },
+    "zh-TW": {
+      "name": "時鐘",
+      "description": "Gaia 時鐘"
+    }
+  },
+  "default_locale": "en-US",
+  "icons": {
+    "120": "/style/icons/Clock.png",
+    "60": "/style/icons/60/Clock.png"
+  },
+  "orientation": "portrait-primary",
+  "messages": ["alarm"]
+}

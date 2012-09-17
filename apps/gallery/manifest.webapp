@@ -1,0 +1,84 @@
+{
+  "name": "Gallery",
+  "description": "Gaia Gallery",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "The Gaia Team",
+    "url": "https://github.com/mozilla-b2g/gaia"
+  },
+  "permissions": [
+    "device-storage:pictures",
+    "settings"
+  ],
+  "activities": {
+    "browse": {
+      "filters": {
+        "type": "photos"
+       },
+      "disposition": "window"
+    },
+    "pick": {
+      "filters": {
+        "type": "image/jpeg"
+       },
+      "disposition": "inline",
+      "returnValue": true,
+      "href": "/index.html#inlineActivity"
+    }
+  },
+  "locales": {
+    "ar": {
+      "name": "إستديو",
+      "description": "Gaia إستديو"
+    },
+    "ca": {
+      "name": "Galeria",
+      "description": "Galeria del Gaia"
+    },
+    "de": {
+      "name": "Galerie",
+      "description": "Gaia Galerie"
+    },
+    "el": {
+      "name": "Γκαλερί",
+      "description": "Γκαλερί Gaia"
+    },
+    "en-US": {
+      "name": "Gallery",
+      "description": "Gaia Gallery"
+    },
+    "es": {
+      "name": "Galería",
+      "description": "Galería de Gaia"
+    },
+    "fr": {
+      "name": "Galerie",
+      "description": "Galerie Gaia"
+    },
+    "it": {
+      "name": "Galleria",
+      "description": "Galleria di Gaia"
+    },
+    "pt-BR": {
+      "name": "Galeria",
+      "description": "Galeria do Gaia"
+    },
+    "ru": {
+      "name": "Галерея",
+      "description": "Галерея Gaia"
+    },
+    "tr": {
+      "name": "Galeri",
+      "description": "Gaia Galeri"
+    },
+    "zh-TW": {
+      "name": "相簿",
+      "description": "Gaia 相簿"
+    }
+  },
+  "default_locale": "en-US",
+  "icons": {
+    "120": "/style/icons/Gallery.png",
+    "60": "/style/icons/60/Gallery.png"
+  }
+}
